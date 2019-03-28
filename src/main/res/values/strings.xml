@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Fragment-Andrioid-Kotlin</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="sachin">Sachin Ramesh Tendulkar is a former Indian international cricketer and a former captain of the
+        Indian national team, regarded as one of the greatest batsman of all time. He is the highest run scorer of all
+        time in International cricket.
+    </string>
+    <string name="sourav">Sourav Chandidas Ganguly, affectionately known as Dada, is a former Indian cricketer and
+        captain of the Indian national team, Currently, he is appointed as the President of the Cricket Association of
+        Bengal and President of the Editorial Board with Wisden India
+    </string>
+    <string name="virendra">Virender Sehwag is a former Indian cricketer. Widely regarded as one of the most destructive
+        batsmen of all time, Sehwag played as an aggressive right-handed opening batsman and also bowled part-time
+        right-arm off-spin. He played his first One Day International in 1999 and joined the Indian test side in 2001
+    </string>
+    <string name="virat">Virat Kohli is an Indian international cricketer who currently captains the India national
+        team. A right-handed top-order batsman, Kohli is regarded as one of the best batsmen in the world. He plays for
+        Royal Challengers Bangalore in the Indian Premier League, and has been the team\'s captain since 2013.
+    </string>
+    <string name="yuvraj">Yuvraj Singh is an Indian international cricketer, who plays all forms of the game. An
+        all-rounder who bats left-handed in the middle order and bowls slow left-arm orthodox, Yuvraj is the son of
+        former Indian fast bowler and Punjabi actor Yograj Singh.
+    </string>
+    <string name="ajay">Ajaysinhji \"Ajay\" Jadeja, is a former India cricketer, who had been a regular member in the
+        Indian cricket team between 1992 and 2000. He played 15 Test matches and 196 One Day Internationals for India.
+        His cricketing achievements were overshadowed by a 5-year ban for match-fixing.
+    </string>
+    <string name="dhoni">Mahendra Singh Dhoni is an Indian international cricketer who captained the Indian national
+        team in limited
+    </string>
+
+</resources>
