@@ -19,6 +19,6 @@ class MainActivity : AppCompatActivity() {
             .add(R.id.detailFragment, DetailFragment.newInstance(0), "DetailFragment")
             .commit()
 
-
     }
+
 }

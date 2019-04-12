@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.fragment_detail.view.*
 
 
@@ -23,8 +24,15 @@ class DetailFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val view = inflater.inflate(R.layout.fragment_detail, container, false)
-        var position: Int = arguments!!.getInt("POS")
-        view.textView.text = Utility(activity!!.applicationContext).getArrayList().get(position).about
+        val position: Int = arguments!!.getInt("POS")
+        val list = Utility(activity!!.applicationContext).getArrayList()
+        view.textView.text = list[position].about
+        Picasso.get()
+            .load(list[position].image)
+            .placeholder(R.mipmap.ic_launcher)
+            .error(R.mipmap.ic_launcher)
+            .into(view.image)
+
         return view
     }
 
